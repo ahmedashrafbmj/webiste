@@ -15,13 +15,10 @@ const HomeTwoBoost = () => {
                 <span className="section__subtitle-2">
                   <span>Boos</span>ting
                 </span>
-                <h2 className="section__title-2">Boost Your Website Today</h2>
+                <h2 className="section__title-2">Get Your Website Today</h2>
               </div>
               <p className="mb-0">
-                Smratseo is a brand of digital agency. Competen novate
-                synergstic vortas through forward strategic theme areas
-                Compelling extend super was that Proactive myocardinate vertical
-                strategic
+               We are Providing one Year Free maintainance we these facilities etioned Below. 
               </p>
               <div className="approach__features s-2">
                 <div className="approach__features-item">

@@ -25,15 +25,13 @@ const BannerTwo = () => {
               <div className="hero__content-wrapper">
                 <div className="hero__content mb-60">
                   <span className="" data-aos="fade-up" data-aos-delay="200">
-                    Welcome to Seofest <span>SEO</span> agency
+                    Welcome to Best IT <span>Services</span> Agency
                   </span>
                   <h2 className="" data-aos="fade-up" data-aos-delay="500">
-                    Complete SEO Tools for Business
+                    Business Value Through Digital Products
                   </h2>
                   <p className="" data-aos="fade-up" data-aos-delay="600">
-                    Gain and maintain your place at the top of SERPs with our
-                    expertise on all leading SEO platforms and licensing to
-                    top-tier tools.
+                  To offer reliable and innovative software-based business solutions that strategically help our clients&apos; build competitive advantage by leveraging cutting edge technology.
                   </p>
                 </div>
                 <div

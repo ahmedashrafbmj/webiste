@@ -212,7 +212,7 @@ const HeaderTwo = () => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <Link href="tel:+088889797697" aria-label="Contact Us">
-                        +088889797697
+                      +1 (786) 480-5451
                       </Link>
                     </div>
                   </li>
@@ -223,7 +223,7 @@ const HeaderTwo = () => {
                     <div className="offcanvas__contact-text">
                       <Link href="tel:+012-345-6789" aria-label="Contact Us">
                         <span className="mailto:support@mail.com">
-                          support@mail.com
+                          david@azsolution.tech
                         </span>
                       </Link>
                     </div>
@@ -320,7 +320,7 @@ const HeaderTwo = () => {
                     </div>
                     <div className="contact__tet">
                       <Link href="tel:+(123)123-456-7890">
-                        +(123)123-456-7890
+                      +1 (786) 480-5451
                       </Link>
                     </div>
                   </div>
@@ -342,7 +342,7 @@ const HeaderTwo = () => {
                     </div>
                     <div className="contact__tet">
                       <Link href="mailto:seofest@example.com">
-                        seofest@example.com
+                        david@azsolution.tech
                       </Link>
                     </div>
                   </div>

@@ -34,9 +34,8 @@
     max-width: 170px;
 }
 .header__area-2 {
-    padding-top: 40px;
+ 
 	&.sticky {
-        padding: 15px 0;
         @media #{$xs,$sm,$md}{
             padding: 27px 0;
         }

@@ -42,52 +42,25 @@ const AboutTwo = () => {
                   <span>What</span> we do
                 </span>
                 <h2 className="section__title-2">
-                  Our Mission is to change Your View for SEO
+                  Our Mission is to Provide you best Services
                 </h2>
               </div>
               <p>
-                Smratseo is a brand of digital agency. Competen novate
-                synergstic vortas through forward strategic theme areas
-                Compelling extend super was that Proactive myocardinate vertical
-                strategic
+              We specialize in providing robust digital solutions to businesses
+that are meant to set them apart
               </p>
               <div className="about__features-box">
                 <div className="about__features-item">
                   <div className="about__features-icon">
-                    <i className="fa-solid fa-check"></i>
                   </div>
                   <div className="about__features-content">
                     <p>
-                      If Google can&apos;t crawl your site, it&apos;s not going
-                      to rank
+                    We specialize in providing robust digital solutions to businesses
+that are meant to set them apart
                     </p>
-                    <p>- but that doesn&apos;t mean avoiding Javascript.</p>
                   </div>
                 </div>
-                <div className="about__features-item">
-                  <div className="about__features-icon s-2">
-                    <i className="fa-solid fa-check"></i>
-                  </div>
-                  <div className="about__features-content">
-                    <p>
-                      If Google can&apos;t crawl your site, it&apos;s not going
-                      to rank
-                    </p>
-                    <p>- but that doesn&apos;t mean avoiding Javascript.</p>
-                  </div>
-                </div>
-                <div className="about__features-item">
-                  <div className="about__features-icon s-3">
-                    <i className="fa-solid fa-check"></i>
-                  </div>
-                  <div className="about__features-content">
-                    <p>
-                      If Google can&apos;t crawl your site, it&apos;s not going
-                      to rank
-                    </p>
-                    <p>- but that doesn&apos;t mean avoiding Javascript.</p>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>

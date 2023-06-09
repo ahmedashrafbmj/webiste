@@ -6,7 +6,7 @@ import ContactMap from "@/components/containers/cta/ContactMap";
 
 const contact = () => {
   return (
-    <Layout header={5} footer={2}>
+    <Layout header={2} footer={2}>
       <Banner title="Contact" />
       <HomeThreeTouch />
       <ContactMap />
