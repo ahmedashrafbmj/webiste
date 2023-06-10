@@ -7,9 +7,7 @@ import Logo from "public/img/logo/logo.png";
 const HeaderTwo = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  const handleToggleMenu = () => {
-    setToggleMenu(!toggleMenu);
-  };
+  
 
   const [openSubMenu, setOpenSubMenu] = useState<string | null>(null);
 
@@ -280,7 +278,7 @@ const HeaderTwo = () => {
                       <Image src={Logo} alt="logo not found" priority />
                     </Link>
                   </div>
-                  <div className="header__toggle-wrapper d-flex align-items-center">
+                  {/* <div className="header__toggle-wrapper d-flex align-items-center">
                     <div className="header__toggle">
                       <button
                         className="sidebar__active d-flex align-items-center"
@@ -297,7 +295,7 @@ const HeaderTwo = () => {
                         </div>
                       </button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-xxl-6 col-xl-6 col-lg-1 col-6 d-none d-xl-block">
@@ -350,23 +348,39 @@ const HeaderTwo = () => {
               </div>
               <div className="col-xxl-3 col-xl-2 col-lg-6 col-6">
                 <div className="header__right d-flex align-items-center justify-content-end">
-                  <div className="header__btn d-none d-lg-block">
-                    <Link className="border__btn white" href="/contact">
-                      Get A Quote
-                    </Link>
-                  </div>
+    
                   <div className="header__toggle d-md-none">
-                    <button
+                    {/* <button
                       className="sidebar__active"
                       aria-label="Toggle Sidebar"
                       onClick={handleToggleMenu}
-                    >
-                      <div className="bar-icon">
+                    > */}
+                      {/* <div className="bar-icon">
                         <span></span>
                         <span></span>
                         <span></span>
-                      </div>
-                    </button>
+                      </div> */}
+                      <div className="contact__icon sidebar__active"aria-label="Toggle Sidebar" style={{width:"27px",height:"27px"}}>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="15.641"
+                        height="18.644"
+                        viewBox="0 0 18.641 18.644"
+                      >
+                        <path
+                          id="call-svgrepo-com"
+                          d="M47.035,50.653A7.842,7.842,0,0,1,43.372,49.4a23.811,23.811,0,0,1-5.752-4.3,21.827,21.827,0,0,1-4.319-5.75c-1.533-2.788-1.272-4.25-.98-4.875a3.891,3.891,0,0,1,1.525-1.636,7.337,7.337,0,0,1,1.192-.633l.115-.05a1.114,1.114,0,0,1,.913-.083,2.676,2.676,0,0,1,.868.666,14.429,14.429,0,0,1,2.171,3.222,3.21,3.21,0,0,1,.426,1.32A2.086,2.086,0,0,1,39,38.524c-.055.074-.109.146-.161.215-.317.416-.386.536-.34.751a7.9,7.9,0,0,0,1.922,2.851,7.567,7.567,0,0,0,2.818,1.876c.224.048.347-.025.776-.352.062-.047.125-.1.191-.144a2.1,2.1,0,0,1,1.259-.563h0a3.016,3.016,0,0,1,1.326.465,15.9,15.9,0,0,1,3.21,2.155,2.675,2.675,0,0,1,.668.866,1.123,1.123,0,0,1-.083.916c-.015.035-.032.072-.05.114a7.346,7.346,0,0,1-.636,1.189,3.892,3.892,0,0,1-1.639,1.522,2.806,2.806,0,0,1-1.23.269Z"
+                          transform="translate(-32.098 -32.009)"
+                          fill="#636363"
+                        />
+                      </svg>
+                    </div>
+                    <div className="contact__tet">
+                      <Link href="tel: +1 (786) 480-5451">
+                      +1 (786) 480-5451
+                      </Link>
+                    </div>
+                    {/* </button> */}
                   </div>
                 </div>
               </div>

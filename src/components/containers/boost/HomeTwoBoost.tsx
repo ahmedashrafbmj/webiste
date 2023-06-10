@@ -18,7 +18,8 @@ const HomeTwoBoost = () => {
                 <h2 className="section__title-2">Get Your Website Today</h2>
               </div>
               <p className="mb-0">
-               We are Providing one Year Free maintainance we these facilities etioned Below. 
+                We are Providing one Year Free maintainance we these facilities
+                etioned Below.
               </p>
               <div className="approach__features s-2">
                 <div className="approach__features-item">

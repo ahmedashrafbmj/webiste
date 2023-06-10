@@ -46,21 +46,19 @@ const AboutTwo = () => {
                 </h2>
               </div>
               <p>
-              We specialize in providing robust digital solutions to businesses
-that are meant to set them apart
+                We specialize in providing robust digital solutions to
+                businesses that are meant to set them apart
               </p>
               <div className="about__features-box">
                 <div className="about__features-item">
-                  <div className="about__features-icon">
-                  </div>
+                  <div className="about__features-icon"></div>
                   <div className="about__features-content">
                     <p>
-                    We specialize in providing robust digital solutions to businesses
-that are meant to set them apart
+                      We specialize in providing robust digital solutions to
+                      businesses that are meant to set them apart
                     </p>
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>

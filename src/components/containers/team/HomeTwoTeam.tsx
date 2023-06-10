@@ -2,10 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import One from "public/img/team/01.jpg";
-import Two from "public/img/team/02.jpg";
-import Three from "public/img/team/03.jpg";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
 import "swiper/css";
@@ -20,10 +16,12 @@ const HomeTwoTeam = () => {
           <div className="col-xl-6 col-lg-6">
             <div className="section__title-wrapper mb-60">
               <span className="section__subtitle-2">
-                <span>Our</span> expert team
+                <span>Our</span> Amazing Works
               </span>
               <h2 className="section__title-2">
-                Let&apos;s Collaborate With Our SEO Expert
+                Creativity involves breaking out of expected & repeatable
+                patterns in order to look at things in different way than ever
+                before.
               </h2>
             </div>
           </div>
@@ -71,13 +69,14 @@ const HomeTwoTeam = () => {
                     <div className="swiper-slide">
                       <div className="team__item">
                         <div className="team__thumb">
-                          <Image src={One} alt="image not found" />
+                          {/* <Image src={One} alt="image not found" /> */}
+                          <h3>Uploading.....</h3>
                         </div>
                         <div className="team__content">
                           <h3>
-                            <Link href="/team-details">Adriano Savedra</Link>
+                            <Link href="/team-details">Uploading.....</Link>
                           </h3>
-                          <p>SEO Strategies</p>
+                          <p>Uploading.....</p>
                           <div className="team__reating">
                             <span>5</span>
                             <span>
@@ -92,13 +91,14 @@ const HomeTwoTeam = () => {
                     <div className="swiper-slide">
                       <div className="team__item">
                         <div className="team__thumb">
-                          <Image src={Two} alt="image not found" />
+                          {/* <Image src={Two} alt="image not found" /> */}
+                          <h3>Uploading.....</h3>
                         </div>
                         <div className="team__content">
                           <h3>
-                            <Link href="/team-details">Adriano Savedra</Link>
+                            <Link href="/team-details">Uploading.....</Link>
                           </h3>
-                          <p>SEO Strategies</p>
+                          <p>Uploading.....</p>
                           <div className="team__reating">
                             <span>5</span>
                             <span>
@@ -113,13 +113,14 @@ const HomeTwoTeam = () => {
                     <div className="swiper-slide">
                       <div className="team__item">
                         <div className="team__thumb">
-                          <Image src={Three} alt="image not found" />
+                          {/* <Image src={Three} alt="image not found" /> */}
+                          <h3>Uploading.....</h3>
                         </div>
                         <div className="team__content">
                           <h3>
-                            <Link href="/team-details">Adriano Savedra</Link>
+                            <Link href="/team-details">Uploading.....</Link>
                           </h3>
-                          <p>SEO Strategies</p>
+                          <p>Uploading.....</p>
                           <div className="team__reating">
                             <span>5</span>
                             <span>
@@ -134,13 +135,14 @@ const HomeTwoTeam = () => {
                     <div className="swiper-slide">
                       <div className="team__item">
                         <div className="team__thumb">
-                          <Image src={One} alt="image not found" />
+                          {/* <Image src={One} alt="image not found" /> */}
+                          <h3>Uploading.....</h3>
                         </div>
                         <div className="team__content">
                           <h3>
-                            <Link href="/team-details">Adriano Savedra</Link>
+                            <Link href="/team-details">Uploading.....</Link>
                           </h3>
-                          <p>SEO Strategies</p>
+                          <p>Uploading.....</p>
                           <div className="team__reating">
                             <span>5</span>
                             <span>
@@ -155,13 +157,14 @@ const HomeTwoTeam = () => {
                     <div className="swiper-slide">
                       <div className="team__item">
                         <div className="team__thumb">
-                          <Image src={Two} alt="image not found" />
+                          {/* <Image src={Two} alt="image not found" /> */}
+                          <h3>Uploading.....</h3>
                         </div>
                         <div className="team__content">
                           <h3>
-                            <Link href="/team-details">Adriano Savedra</Link>
+                            <Link href="/team-details">Uploading.....</Link>
                           </h3>
-                          <p>SEO Strategies</p>
+                          <p>Uploading.....</p>
                           <div className="team__reating">
                             <span>5</span>
                             <span>
@@ -176,13 +179,14 @@ const HomeTwoTeam = () => {
                     <div className="swiper-slide">
                       <div className="team__item">
                         <div className="team__thumb">
-                          <Image src={Three} alt="image not found" />
+                          {/* <Image src={Three} alt="image not found" /> */}
+                          <h3>Uploading.....</h3>
                         </div>
                         <div className="team__content">
                           <h3>
-                            <Link href="/team-details">Adriano Savedra</Link>
+                            <Link href="/team-details">Uploading.....</Link>
                           </h3>
-                          <p>SEO Strategies</p>
+                          <p>Uploading.....</p>
                           <div className="team__reating">
                             <span>5</span>
                             <span>

@@ -2,10 +2,6 @@ import React from "react";
 import Image from "next/image";
 import One from "public/img/shape/rectangle-3.png";
 import Two from "public/img/shape/feedback-shape.png";
-import Three from "public/img/feedback/nav/01.png";
-import Four from "public/img/feedback/nav/02.png";
-import Five from "public/img/feedback/nav/03.png";
-import Six from "public/img/feedback/author-1.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
@@ -30,59 +26,6 @@ const HomeTwoFeedback = () => {
                     <div className="testimonial__slider-2">
                       <div className="feedbacK__shape">
                         <Image src={Two} alt="image not found" />
-                      </div>
-                      <div className="row">
-                        <div className="col-xxl-8 col-lg-9 col-md-8 col-sm-10">
-                          <div className="testimonial__slider-nav">
-                            <Swiper
-                              slidesPerView={3}
-                              spaceBetween={30}
-                              loop={true}
-                              roundLengths={true}
-                              modules={[Autoplay, Navigation]}
-                              autoplay={{
-                                delay: 3000,
-                                disableOnInteraction: false,
-                              }}
-                              navigation={{
-                                nextEl: ".feedback__button-next",
-                                prevEl: ".feedback__button-prev",
-                              }}
-                              className="testimonial__slider-nav-two"
-                            >
-                              <SwiperSlide>
-                                <div className="testimonial__slider-thumb-nav">
-                                  <Image src={Three} alt="Image" />
-                                </div>
-                              </SwiperSlide>
-                              <SwiperSlide>
-                                <div className="testimonial__slider-thumb-nav">
-                                  <Image src={Four} alt="Image" />
-                                </div>
-                              </SwiperSlide>
-                              <SwiperSlide>
-                                <div className="testimonial__slider-thumb-nav">
-                                  <Image src={Five} alt="Image" />
-                                </div>
-                              </SwiperSlide>
-                              <SwiperSlide>
-                                <div className="testimonial__slider-thumb-nav">
-                                  <Image src={Three} alt="Image" />
-                                </div>
-                              </SwiperSlide>
-                              <SwiperSlide>
-                                <div className="testimonial__slider-thumb-nav">
-                                  <Image src={Four} alt="Image" />
-                                </div>
-                              </SwiperSlide>
-                              <SwiperSlide>
-                                <div className="testimonial__slider-thumb-nav">
-                                  <Image src={Three} alt="Image" />
-                                </div>
-                              </SwiperSlide>
-                            </Swiper>
-                          </div>
-                        </div>
                       </div>
                       <div className="testimonial__slider-active-2">
                         <Swiper
@@ -112,19 +55,16 @@ const HomeTwoFeedback = () => {
                                   <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p>
-                                  We increased our B2B SaaS client&apos;s
-                                  website traffic by over 300% in just 3 months.
-                                  We were able to do this by targeting their
-                                  website visitors through the use of SEO
-                                  optimized content
+                                  Working with several word press themes and
+                                  templates the last years, I only can say this
+                                  is the best in every level. I use it for my
+                                  company and the reviews that I have already
+                                  are all excellent.
                                 </p>
                                 <div className="feedback__meta">
                                   <div className="feedback__meta-author">
-                                    <h5>Neal Kapur</h5>
-                                    <span>Head of Marketing at Glossy</span>
-                                  </div>
-                                  <div className="feedback__meta-thumb">
-                                    <Image src={Six} alt="image not found" />
+                                    <h5>Alina Lora</h5>
+                                    <span>Former Manager, Mgfoogies</span>
                                   </div>
                                 </div>
                               </div>
@@ -141,19 +81,16 @@ const HomeTwoFeedback = () => {
                                   <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p>
-                                  We increased our B2B SaaS client&apos;s
-                                  website traffic by over 300% in just 3 months.
-                                  We were able to do this by targeting their
-                                  website visitors through the use of SEO
-                                  optimized content
+                                  This is one of the BEST THEMES I have ever
+                                  worked with. The extra bells and whistles
+                                  added to it are amazing. Elementor features
+                                  add extra flavor. The customer support is very
+                                  responsive.
                                 </p>
                                 <div className="feedback__meta">
                                   <div className="feedback__meta-author">
-                                    <h5>Adriano Savedra</h5>
-                                    <span>Head of Marketing at Glossy</span>
-                                  </div>
-                                  <div className="feedback__meta-thumb">
-                                    <Image src={Six} alt="image not found" />
+                                    <h5>Rhon Jho</h5>
+                                    <span>Former Manager, Sarealtv</span>
                                   </div>
                                 </div>
                               </div>
@@ -170,19 +107,16 @@ const HomeTwoFeedback = () => {
                                   <i className="fa-solid fa-star"></i>
                                 </div>
                                 <p>
-                                  We increased our B2B SaaS client&apos;s
-                                  website traffic by over 300% in just 3 months.
-                                  We were able to do this by targeting their
-                                  website visitors through the use of SEO
-                                  optimized content
+                                  Great theme, one of the best I have worked
+                                  with in a while. Full featured and great
+                                  support for the minor issues I had which were
+                                  really my not being skilled/experienced
+                                  enough.
                                 </p>
                                 <div className="feedback__meta">
                                   <div className="feedback__meta-author">
-                                    <h5>Sagor Khan Omi</h5>
-                                    <span>Head of Marketing at Glossy</span>
-                                  </div>
-                                  <div className="feedback__meta-thumb">
-                                    <Image src={Six} alt="image not found" />
+                                    <h5>Donald Frew</h5>
+                                    <span>Former Manager, FarmerSpot</span>
                                   </div>
                                 </div>
                               </div>
@@ -210,9 +144,6 @@ const HomeTwoFeedback = () => {
                                     <h5>Neal Kapur</h5>
                                     <span>Head of Marketing at Glossy</span>
                                   </div>
-                                  <div className="feedback__meta-thumb">
-                                    <Image src={Six} alt="image not found" />
-                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -239,9 +170,6 @@ const HomeTwoFeedback = () => {
                                     <h5>Adriano Savedra</h5>
                                     <span>Head of Marketing at Glossy</span>
                                   </div>
-                                  <div className="feedback__meta-thumb">
-                                    <Image src={Six} alt="image not found" />
-                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -267,9 +195,6 @@ const HomeTwoFeedback = () => {
                                   <div className="feedback__meta-author">
                                     <h5>Sagor Khan Omi</h5>
                                     <span>Head of Marketing at Glossy</span>
-                                  </div>
-                                  <div className="feedback__meta-thumb">
-                                    <Image src={Six} alt="image not found" />
                                   </div>
                                 </div>
                               </div>

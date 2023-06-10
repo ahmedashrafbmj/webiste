@@ -25,7 +25,7 @@
     @include box-shadow(0 0 60px 0 rgba(53, 57, 69, 0.15));
 	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     @media #{$xs,$sm,$md}{
-        padding: 22px 0;
+        // padding: 22px 0;
     }
 }
 .copyright__logo img,
@@ -37,7 +37,7 @@
  
 	&.sticky {
         @media #{$xs,$sm,$md}{
-            padding: 27px 0;
+            // padding: 27px 0;
         }
 		.border__btn {
 			&.white {
