@@ -22,19 +22,11 @@ const FooterTwo = () => {
                 <div className="footer__link">
                   <ul>
                     <li>
-                      <Link href="/">About</Link>
+                      <Link href="https://wa.me/+17864805451">About</Link>
                     </li>
+               
                     <li>
-                      <Link href="/">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="/">Resources</Link>
-                    </li>
-                    <li>
-                      <Link href="/">Free SEO Tools</Link>
-                    </li>
-                    <li>
-                      <Link href="/">Contact Us</Link>
+                      <Link href="https://wa.me/+17864805451">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -48,19 +40,25 @@ const FooterTwo = () => {
                 <div className="footer__link">
                   <ul>
                     <li>
-                      <Link href="/">Search Engine Optimization</Link>
+                      <Link href="https://wa.me/+17864805451">Web Developement</Link>
                     </li>
                     <li>
-                      <Link href="/">PPC Management Services</Link>
+                      <Link href="https://wa.me/+17864805451">App Developement</Link>
                     </li>
                     <li>
-                      <Link href="/">Social Media Management</Link>
+                      <Link href="https://wa.me/+17864805451">Logo Designing</Link>
                     </li>
                     <li>
-                      <Link href="/">Link Building Services</Link>
+                      <Link href="https://wa.me/+17864805451">Poster Designing</Link>
                     </li>
                     <li>
-                      <Link href="/">Conversion Optimization</Link>
+                      <Link href="https://wa.me/+17864805451">Figma Designing</Link>
+                    </li>
+                    <li>
+                      <Link href="https://wa.me/+17864805451">Social Media Management</Link>
+                    </li>
+                    <li>
+                      <Link href="https://wa.me/+17864805451">Search Engine Optimization (SEO)</Link>
                     </li>
                   </ul>
                 </div>
@@ -99,20 +97,12 @@ const FooterTwo = () => {
                     <Image src={Logo} alt="logo not found" />
                   </Link>
                 </div>
-                <div className="footer__contact mb-30">
-                  <span>Boise, Idaho Office</span>
-                  <span>1150 W. State Street, Suite 240,</span>
-                  <span>Boise, Idaho 83702 USA</span>
-                </div>
                 <div className="touch__social">
                   <Link href="/">
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link>
                   <Link href="/">
-                    <i className="fa-brands fa-twitter"></i>
-                  </Link>
-                  <Link href="/">
-                    <i className="fa-brands fa-youtube"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </Link>
                   <Link href="/">
                     <i className="fa-brands fa-linkedin"></i>
@@ -132,6 +122,9 @@ const FooterTwo = () => {
           </div>
         </div>
       </div>
+      <div style={{position: "fixed",top: "88%",left:"5%"}}>
+                <a href="https://wa.me/+17864805451"><img src="/img/whatapp.png " style={{width:"50%"}} alt="" /></a>
+            </div>
     </footer>
   );
 };

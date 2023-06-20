@@ -339,7 +339,7 @@ const HeaderTwo = () => {
                       </svg>
                     </div>
                     <div className="contact__tet">
-                      <Link href="mailto:seofest@example.com">
+                      <Link href="mailto:david@azsolution.tech">
                         david@azsolution.tech
                       </Link>
                     </div>

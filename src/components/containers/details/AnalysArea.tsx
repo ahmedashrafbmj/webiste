@@ -264,8 +264,8 @@ const AnalysArea = () => {
                       </div>
                       <div className="sideber__contact-text">
                         <span>
-                          <a href="mailto:seofest@example.com">
-                            seofest@example.com
+                          <a href="mailto:david@azsolution.tech">
+                            david@azsolution.tech
                           </a>
                         </span>
                       </div>
